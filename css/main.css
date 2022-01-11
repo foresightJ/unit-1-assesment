@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+}
+
+button {
+  background-color: grey;
+  color: white;
+}
+
+button:hover {
+  background-color: lightblue;
+  color: black;
+}
